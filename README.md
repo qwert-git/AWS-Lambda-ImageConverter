@@ -1,5 +1,5 @@
-# Convert image from .jpg to .png AWS Lambda 
-JpgConverterLambda is a simple pet project that demonstrates how to use AWS Lambda and the SixLabors.ImageSharp package to convert JPG images to GIF, PNG, and BMP formats. The project is written in C# and can be easily modified to support other image formats or additional functionality.
+# AWS Lambda Image Converter project
+ImageConverterFunction is a simple pet project that demonstrates how to use AWS Lambda and the SixLabors.ImageSharp package to convert JPG images to GIF, PNG, and BMP formats. The project is written in C# and can be easily modified to support other image formats or additional functionality.
 
 To use the JpgConverter, you will need to have an AWS account and create a new Lambda function using the C# runtime. Once the function is set up, you can upload the JpgConverter code and configure the function to trigger when a new image is added to an S3 bucket.
 
